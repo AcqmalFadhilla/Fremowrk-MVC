@@ -1,0 +1,27 @@
+{
+    "name": "tubes/inventaris-barang",
+    "description": "Web MVC inventaris barang lab",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tubes\\InventarisBarang\\": "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tubes\\InventarisBarang\\": "test"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Acqmal Fadhilla Latief",
+            "email": "109632348+AcqmalFadhilla@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.8"
+    }
+}
